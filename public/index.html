@@ -1,0 +1,28 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html ng-app="myapp">
+  <head>
+
+    <title> dHarness MEAN Seed </title>
+
+    <!-- components -->
+    <script src="/bower_components/angular/angular.js"></script>
+    <script src="/bower_components/angular-route/angular-route.js"></script>
+
+    <!-- MAIN APP FILE -->
+    <script type="text/javascript" src="app.js"></script>
+
+    <!-- CONTROLLERS -->
+    <script type="text/javascript" src="controllers/mainController.js"></script>
+
+	<body>
+	    <!-- this is where content will be injected -->
+	    <div class="page {{ pageClass }}" ng-view >
+		    <center>
+		    
+		    </center>
+	    </div>
+	</body>
+
+
+</html>
