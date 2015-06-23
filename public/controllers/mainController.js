@@ -2,7 +2,7 @@ myapp.controller('mainController', function($scope, $http) {
 
     $scope.blogs = {};
 
-    $http.get('http://localhost:8000/blogtext').
+    $http.get('http://192.168.0.12:8000/blogtext').
     success(function(data, status, headers, config) {
         console.log(data)
 
