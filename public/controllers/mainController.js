@@ -18,15 +18,17 @@ myapp.controller('mainController', function($scope, $http) {
         uri: ''
     };
 
+
+
     $http.get('http://localhost:8000/blogimg').
     success(function(data, status, headers, config) {
 
         //console.log(data); //weird freakish satan symbols
         // $scope.image = data;
-        $scope.image.uri = 'data:image/jpg;base64,' + data;
+        var img = window.btoa(encodeURIComponent(data)); //base64encode
 
-
-
+        console.log(img)
+        $scope.image.uri = 'data:image/jpg;base64,' + img;
 
     }).
     error(function(data, status, headers, config) {
