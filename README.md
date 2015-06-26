@@ -7,4 +7,4 @@ This website uses the highly acclaimed, well structured MEAN seed that I helped 
 ###Dylan Harness
 https://github.com/dharness
 
-![nuring machine](/public/images/img.jpg "Nuring Machine")
+![nuring machine](/public/images/nuring.jpg "Nuring Machine")
