@@ -8,10 +8,10 @@
          templateUrl: 'pages/index.html',
          controller: 'mainController'
      })
-     // home page
-     .when('/', {
-         templateUrl: 'pages/index.html',
-         controller: 'mainController'
+     // about page
+     .when('/about', {
+         templateUrl: 'pages/about.html',
+         controller: 'aboutController'
      })
 
  });
