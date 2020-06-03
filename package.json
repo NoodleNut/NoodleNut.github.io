@@ -7,7 +7,7 @@
     "fs": "0.0.2",
     "method-override": "~2.0.2",
     "mongodb": "*",
-    "mongoose": "~3.8.0",
+    "mongoose": "~5.9.17",
     "morgan": "~1.0.0"
   }
 }
