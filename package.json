@@ -8,6 +8,6 @@
     "method-override": "~2.0.2",
     "mongodb": "*",
     "mongoose": "~3.8.0",
-    "morgan": "~1.0.0"
+    "morgan": "~1.10.0"
   }
 }
