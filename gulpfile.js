@@ -45,21 +45,21 @@ function html () {
         .pipe(nunjucksRender({
             path: ['./src'] // String or Array
         }))
-        .pipe(dest('dist'));
+        .pipe(dest('docs'));
 };
 
 function css () {
     return src(cssPath)
-        .pipe(dest('dist'));
+        .pipe(dest('docs'));
 };
 
 function assets() {
     return src(assetsPath)
-        .pipe(dest('dist/assets'));
+        .pipe(dest('docs/assets'));
 };
 
 function clean () {
-    return del(['dist']);
+    return del(['docs']);
 };
 
 
