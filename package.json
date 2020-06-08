@@ -1,13 +1,24 @@
 {
-  "name": "Stain_DB",
-  "main": "server.js",
+  "name": "nabila",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
   "dependencies": {
-    "body-parser": "~1.4.2",
-    "express": "~4.0.0",
-    "fs": "0.0.2",
-    "method-override": "~2.0.2",
-    "mongodb": "*",
-    "mongoose": "~3.8.0",
-    "morgan": "~1.0.0"
-  }
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-data": "^1.3.1",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-nunjucks": "^5.0.1",
+    "nunjucks": "^3.2.1",
+    "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "gulp-uglify": "^3.0.2"
+  },
+  "scripts": {
+    "gulp": "gulp",
+    "gulp:w": "gulp watch"
+  },
+  "author": "",
+  "license": "ISC"
 }
